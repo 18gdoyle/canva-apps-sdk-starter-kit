@@ -22,6 +22,13 @@ export const App = () => {
         <Button variant="primary" onClick={onClick} stretch>
           Do something cool
         </Button>
+        <form>
+          <label>
+            Name:
+            <input type="text" name="name" />
+          </label>
+          <input type="submit" value="Submit" />
+        </form>
       </Rows>
     </div>
   );
